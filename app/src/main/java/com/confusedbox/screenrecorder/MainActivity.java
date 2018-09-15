@@ -116,8 +116,8 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        BasicAWSCredentials credentials = new BasicAWSCredentials("AKIAIH7SEKMOMRAX2R3Q",
-                "1+JmTcnu7EQXG1hcsFEYeMB5tagmI5N6YT73SjLv");
+        BasicAWSCredentials credentials = new BasicAWSCredentials("KEY",
+                "SECRET");
         AmazonS3Client s3Client = new AmazonS3Client(credentials);
 
         AWSConfiguration configuration = AWSMobileClient.getInstance().getConfiguration();
